@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bukubank_integration *.css
+recursive-include bukubank_integration *.csv
+recursive-include bukubank_integration *.html
+recursive-include bukubank_integration *.ico
+recursive-include bukubank_integration *.js
+recursive-include bukubank_integration *.json
+recursive-include bukubank_integration *.md
+recursive-include bukubank_integration *.png
+recursive-include bukubank_integration *.py
+recursive-include bukubank_integration *.svg
+recursive-include bukubank_integration *.txt
+recursive-exclude bukubank_integration *.pyc
